@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding-top: 7vh;
+  /* position: relative; */
+  background: url("pictures/spiral.jpg") no-repeat center;
+  background-size: cover;
+  font-family: "League Gothic", sans-serif;
+  font-size: large;
+  font-weight: lighter;
+}
+
+.neonTextBlue {
+  color: #b8e3f9;
+  text-shadow: 0 0 7px #b8e3f9, 0 0 10px #b8e3f9, 0 0 42px rgb(0, 191, 255),
+    0 0 82px rgb(0, 191, 255);
+}
+
+.neonTextPink {
+  color: #fed8fd;
+  text-shadow: 0 0 7px #cf95d6, 0 0 10px #cf95d6, 0 0 42px #fed8fd,
+    0 0 82px #fed8fd;
+}
+
+.main {
+  /* background-color: aqua; */
+}
+
+.main img {
+  height: 60vh;
+  width: 35vw;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+.landing {
+  height: 100vh;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about {
+  height: 100vh;
+  /* background-color: bisque; */
+}
+
+.projects {
+  height: 100vh;
+  /* background-color: antiquewhite; */
+}
