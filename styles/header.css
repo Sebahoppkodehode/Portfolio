@@ -17,8 +17,15 @@
 }
 
 .logo {
-  max-width: 100%;
-  height: 50px;
+  background: -webkit-linear-gradient(#77d2ff, #c64bd3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: fit-content;
+  display: flex;
+  text-align: center;
+  margin-top: -0.05rem;
+  line-height: 1;
+  text-shadow: 0 0 42px #77d2ff, 0 0 82px #c64bd3;
 }
 .Nav {
   width: 30vw;
