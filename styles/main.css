@@ -1,20 +1,28 @@
-body {
-  margin: 0;
-  padding-top: 7vh;
-  /* position: relative; */
+:root {
+  position: relative;
   background: url("pictures/spiral.svg") no-repeat center;
   background-size: cover;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #0d282ddd, #3d0d2fe1) fixed no-repeat;
   font-family: "League Gothic", sans-serif;
   font-size: large;
   font-weight: lighter;
   flex-wrap: wrap;
+  /* background: linear-gradient(0.6turn, #b8e3f9, #cf95d6); */
 }
 
 ul {
   padding: 0;
 }
 
-h1 {
+h1,
+h2,
+h3,
+p,
+li {
   font-weight: normal;
 }
 
@@ -59,9 +67,7 @@ li {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-
   height: 60vh;
-
   width: 40vw;
   padding: 16px;
 }
