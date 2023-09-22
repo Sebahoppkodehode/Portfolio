@@ -1,17 +1,13 @@
 :root {
-  position: relative;
-  background: url("pictures/spiral.svg") no-repeat center;
-  background-size: cover;
+  background: url("pictures/spiral.svg") no-repeat center/cover;
 }
 
 body {
   margin: 0;
-  background: linear-gradient(180deg, #0d282ddd, #3d0d2fe1) fixed no-repeat;
+  background: linear-gradient(180deg, #0d282ddd, #3d0d2fe1) no-repeat;
   font-family: "League Gothic", sans-serif;
   font-size: large;
   font-weight: lighter;
-  flex-wrap: wrap;
-  /* background: linear-gradient(0.6turn, #b8e3f9, #cf95d6); */
 }
 
 ul {
@@ -51,7 +47,6 @@ li {
 
 .landing {
   height: 100vh;
-  /* background-color: blueviolet; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -87,7 +82,6 @@ li {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* background-color: bisque; */
 }
 
 .about p {
@@ -99,5 +93,4 @@ li {
 
 .projects {
   height: 100vh;
-  /* background-color: antiquewhite; */
 }
