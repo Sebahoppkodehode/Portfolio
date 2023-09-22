@@ -6,8 +6,12 @@ body {
   margin: 0;
   background: linear-gradient(180deg, #0d282ddd, #3d0d2fe1) no-repeat;
   font-family: "League Gothic", sans-serif;
-  font-size: large;
+  font-size: 2vw; /* Adjust the base font size using viewport units */
   font-weight: lighter;
+}
+
+p {
+  font-size: 3vw;
 }
 
 ul {
@@ -19,7 +23,7 @@ h2,
 h3,
 p,
 li {
-  font-weight: normal;
+  font-weight: lighter;
 }
 
 li {
@@ -28,16 +32,16 @@ li {
 
 .neonTextBlue {
   color: #b8e3f9;
-  text-shadow: 0 0 20px #b8e3f9, 0 0 42px rgb(0, 191, 255),
-    0 0 82px rgb(0, 191, 255);
+  text-shadow: 0 0 2vw #b8e3f9, 0 0 4.2vw rgb(0, 191, 255),
+    0 0 8.2vw rgb(0, 191, 255);
 }
 
 .neonTextPink {
   color: #fed8fd;
-  text-shadow: 0 0 20px #cf95d6, 0 0 42px #fed8fd, 0 0 82px #fed8fd;
+  text-shadow: 0 0 2vw #cf95d6, 0 0 4.2vw #fed8fd, 0 0 8.2vw #fed8fd;
 }
 
-.main img {
+img {
   height: 60vh;
   width: 30vw;
   object-fit: cover;
@@ -64,11 +68,11 @@ li {
   text-align: center;
   height: 60vh;
   width: 40vw;
-  padding: 16px;
+  padding: 2vw; /* Adjust padding using viewport units */
 }
 
 .landing h1 {
-  font-size: 4rem;
+  font-size: 8vw; /* Adjust font size using viewport units */
   margin: 0;
   padding: 0;
 }
@@ -86,11 +90,21 @@ li {
 
 .about p {
   font-weight: lighter;
-  font-size: 1.5rem;
+  font-size: 2vw; /* Adjust font size using viewport units */
   line-height: 150%;
-  padding: 20px;
+  padding: 2vw; /* Adjust padding using viewport units */
 }
 
 .projects {
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projects img {
+  border-radius: 5px;
+  width: 40vw;
+  height: 60vh;
 }
