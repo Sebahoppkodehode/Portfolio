@@ -1,6 +1,5 @@
 .footer {
   height: 100vh;
-  /* background-color: cadetblue; */
   display: flex;
   align-items: center;
 }
@@ -17,7 +16,6 @@
   width: 70vw;
   height: 60vh;
   margin: 0 auto;
-  font-size: x-large;
   font-weight: lighter;
   color: #fed8fd;
 }

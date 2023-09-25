@@ -6,12 +6,8 @@ body {
   margin: 0;
   background: linear-gradient(180deg, #0d282ddd, #3d0d2fe1) no-repeat;
   font-family: "League Gothic", sans-serif;
-  font-size: 2vw; /* Adjust the base font size using viewport units */
+  font-size: 2vw;
   font-weight: lighter;
-}
-
-p {
-  font-size: 3vw;
 }
 
 ul {
@@ -24,10 +20,6 @@ h3,
 p,
 li {
   font-weight: lighter;
-}
-
-li {
-  font-size: 2rem;
 }
 
 .neonTextBlue {
@@ -68,17 +60,18 @@ img {
   text-align: center;
   height: 60vh;
   width: 40vw;
-  padding: 2vw; /* Adjust padding using viewport units */
+  padding: 4vw;
 }
 
 .landing h1 {
-  font-size: 8vw; /* Adjust font size using viewport units */
+  font-size: 6vw;
   margin: 0;
   padding: 0;
 }
 
 .landing ul {
   list-style: none;
+  font-size: 3vw;
 }
 
 .about {
@@ -90,9 +83,13 @@ img {
 
 .about p {
   font-weight: lighter;
-  font-size: 2vw; /* Adjust font size using viewport units */
+  font-size: 2vw;
   line-height: 150%;
-  padding: 2vw; /* Adjust padding using viewport units */
+  padding: 2vw;
+}
+
+.about h2 {
+  margin-bottom: -6vh;
 }
 
 .projects {
