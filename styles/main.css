@@ -8,9 +8,15 @@ body {
   font-family: "League Gothic", sans-serif;
   font-size: 2vw;
   font-weight: lighter;
+  letter-spacing: 2px;
 }
 
-ul {
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section ul {
   padding: 0;
 }
 
@@ -89,7 +95,7 @@ img {
 }
 
 .about h2 {
-  margin-bottom: -6vh;
+  margin-bottom: -20px;
 }
 
 .projects {
