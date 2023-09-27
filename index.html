@@ -6,6 +6,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/rgb.css">
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
@@ -16,18 +17,18 @@
     
       <div class="header">
       <div class="Home">
-        <h3 class="neonTextBlue">Hjem</h3>
+        <h3 id="home" class="neonTextBlue">Hjem</h3>
       </div>
       <h3 class="logo">&#60;404&#62;<br>Hopperstad</h3>
       <div class="Nav">
-        <h3 class="neonTextBlue">Om Meg</h3>
-        <h3 class="neonTextBlue">Prosjekter</h3>
-        <h3 class="neonTextBlue">Kontakt Info</h3>
+        <h3 id="about-link" class="neonTextBlue">Om Meg</h3>
+        <h3 id="projects-link" class="neonTextBlue">Prosjekter</h3>
+        <h3 id="contact-link" class="neonTextBlue">Kontakt Info</h3>
       </div>
     </div>
     
     <div class="main">
-      <section class="landing">
+      <section id="landing" class="landing">
         <div class="text-card">
           <h1 class="neonTextBlue">Sebastian Hopperstad</h1>
           <ul class="neonTextBlue">
@@ -41,7 +42,7 @@
           <img src="./styles/pictures/meg.jpg" alt="Portrait of me">
         </div>
       </section>
-      <section class="about">
+      <section id="about" class="about">
         <div>
           <img src="./styles/pictures/Mina.jpg" alt="Portrait of my gecko">
         </div>
@@ -57,7 +58,7 @@
         </div>
       </section>
 
-      <section class="projects">
+      <section id="projects" class="projects">
         <div class="project1">
           <a class="project-link" href="https://sebahoppkodehode.github.io/API-oppgave/" target="_blank">
           <img class="project1-img" src="./styles/pictures/Api-oppgave.png" alt="">
@@ -68,12 +69,16 @@
           </div>
         </div>
         <div class="project2">
-          <img src="./styles/pictures/gecko.avif" alt="">
+        <a class="project-link" href="https://sebahoppkodehode.github.io/Weight-Calculator/" target="_blank">
+          <img class="project2-img" src="./styles/pictures/Weight-Calculator.png" alt="">
+          <div class="text-container">
+            <div class="project2-text"><p class="neonTextBlue">Dette er en simpel vekt konverterer jeg lagde ved bruk av HTML, CSS, og JavaScript!</p>
+        </a>
         </div>
       </section>
 
     <div class="footer">
-      <section class="contact">
+      <section id="contact" class="contact">
   <h2 class="neonTextPink">Kontakt Informasjon</h2>
   <p class="neonTextPink">
     Vis du har noen spørsmål eller ønsker å få tak i meg ligger kontakt infoen min her:

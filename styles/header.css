@@ -15,6 +15,12 @@
   width: 30vw;
   align-items: center;
   justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+#home {
+  cursor: pointer;
 }
 
 .logo {
@@ -34,6 +40,18 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+}
+
+#about-link {
+  cursor: pointer;
+}
+
+#projects-link {
+  cursor: pointer;
+}
+
+#contact-link {
+  cursor: pointer;
 }
 
 h3 {
