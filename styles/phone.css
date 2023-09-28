@@ -1,0 +1,21 @@
+@media (orientation: portrait) {
+  .projects,
+  .landing,
+  .about {
+    flex-direction: column;
+    gap: 20px;
+    min-height: 90vh;
+    min-width: 60vw;
+  }
+  img,
+  .about img {
+    width: 60vw;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+  .Home h3,
+  .Nav h3 {
+    font-size: 0.7rem;
+    gap: 20px;
+  }
+}

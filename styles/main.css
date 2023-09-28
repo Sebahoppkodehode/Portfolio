@@ -1,5 +1,5 @@
 :root {
-  background: url("pictures/spiral.svg") no-repeat center/cover;
+  background: url("pictures/spiral.webp") no-repeat center/cover;
 }
 
 body {
@@ -50,7 +50,7 @@ img {
 }
 
 .landing {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
