@@ -1,21 +1,57 @@
 @media (orientation: portrait) {
   .projects,
   .landing,
-  .about {
+  .about,
+  .contact {
     flex-direction: column;
     gap: 20px;
-    min-height: 90vh;
-    min-width: 60vw;
+    min-height: 180vh;
+    min-width: 80vw;
+    contain: content;
+    padding: 20px;
+    align-content: center;
+  }
+
+  .landing {
+    margin-top: -6rem;
+  }
+
+  .contact {
+    padding: 20px;
+    padding-right: 40px;
   }
   img,
-  .about img {
-    width: 60vw;
-    margin: 20px 0;
+  .about img,
+  .projects img,
+  .project1,
+  .project2 {
+    width: 80vw;
     border-radius: 5px;
+    align-items: center;
   }
   .Home h3,
   .Nav h3 {
-    font-size: 0.7rem;
+    font-size: 0.4rem;
     gap: 20px;
+  }
+
+  .text-card,
+  .contact {
+    min-height: 60vh;
+    min-width: 80vw;
+  }
+
+  .text-card p,
+  .contact p,
+  .contact a,
+  .contact li,
+  .text-card li {
+    font-size: 1rem;
+  }
+
+  .text-card h2,
+  .text-card h1,
+  .contact h2 {
+    font-size: 2.5rem;
   }
 }
