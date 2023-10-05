@@ -35,7 +35,7 @@
   .text-card,
   .contact {
     min-height: 60vh;
-    min-width: 80vw;
+    width: 80vw;
   }
 
   .text-card p,
