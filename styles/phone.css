@@ -12,6 +12,10 @@
     align-content: center;
   }
 
+  .about {
+    flex-direction: column-reverse;
+  }
+
   .landing {
     margin-top: -6rem;
   }
