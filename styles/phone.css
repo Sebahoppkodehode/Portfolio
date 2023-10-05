@@ -27,7 +27,8 @@
   }
   .Home h3,
   .Nav h3 {
-    font-size: 0.4rem;
+    font-size: 0.8rem;
+    letter-spacing: normal;
     gap: 20px;
   }
 
