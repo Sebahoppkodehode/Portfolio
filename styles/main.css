@@ -30,14 +30,13 @@ li {
 
 .neonTextBlue {
   color: #b8e3f9;
-  text-shadow: 0 0 2vw #b8e3f9, 0 0 4.2vw rgb(0, 191, 255),
-    0 0 8.2vw rgb(0, 191, 255);
+  text-shadow: 0 0 2vw #b8e3f9, 0 0 8.2vw rgb(0, 191, 255);
   margin: 0;
 }
 
 .neonTextPink {
   color: #fed8fd;
-  text-shadow: 0 0 2vw #cf95d6, 0 0 4.2vw #fed8fd, 0 0 8.2vw #fed8fd;
+  text-shadow: 0 0 2vw #cf95d6, 0 0 8.2vw #fed8fd;
   margin: 0;
 }
 
