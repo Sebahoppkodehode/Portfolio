@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   contactLink.addEventListener("click", function () {
-    scrollToSection("contact");
+    scrollToSection("footer");
   });
 });
 
