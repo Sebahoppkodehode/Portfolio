@@ -40,8 +40,10 @@
 
 .project1,
 .project2 {
+  display: flex;
+  justify-content: space-evenly;
   position: relative;
-  width: 40vw;
+  width: 35vw;
   height: 60vh;
 }
 
