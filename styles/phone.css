@@ -16,10 +16,6 @@
     flex-direction: column-reverse;
   }
 
-  .landing {
-    margin-top: -6rem;
-  }
-
   img,
   .about img,
   .projects img,
