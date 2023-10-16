@@ -1,8 +1,7 @@
 @media (orientation: portrait) {
   .projects,
   .landing,
-  .about,
-  .contact {
+  .about {
     flex-direction: column;
     gap: 20px;
     min-height: 180vh;
@@ -10,6 +9,12 @@
     contain: content;
     padding: 20px;
     align-content: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .about {
@@ -21,9 +26,10 @@
   .projects img,
   .project1,
   .project2 {
+    flex-direction: column;
     width: 80vw;
     border-radius: 5px;
-    align-items: center;
+    align-content: center;
   }
   .Home h3,
   .Nav h3 {
@@ -35,7 +41,8 @@
   .text-card,
   .contact {
     min-height: 60vh;
-    width: 80vw;
+    width: 74vw;
+    padding: 20px;
   }
 
   .text-card p,
