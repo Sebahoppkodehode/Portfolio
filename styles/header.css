@@ -33,6 +33,7 @@
   margin-top: -0.05rem;
   line-height: 1;
   text-shadow: 0 0 42px #77d2ff, 0 0 82px #c64bd3;
+  cursor: pointer;
 }
 .Nav {
   width: 30vw;
