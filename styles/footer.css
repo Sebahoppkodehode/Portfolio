@@ -28,6 +28,9 @@
   list-style: none;
   display: flex;
 }
+.contact h2 {
+  margin-bottom: 4vh;
+}
 
 .ulist {
   display: flex;
